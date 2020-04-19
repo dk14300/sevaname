@@ -1,0 +1,104 @@
+Launching lib\main.dart on RMX1805 in debug mode...
+Running Gradle task 'assembleDebug'...
+√ Built build\app\outputs\apk\debug\app-debug.apk.
+Installing build\app\outputs\apk\app.apk...
+D/FlutterActivity(27168): Using the launch theme as normal theme.
+D/FlutterActivityAndFragmentDelegate(27168): Setting up FlutterEngine.
+D/FlutterActivityAndFragmentDelegate(27168): No preferred FlutterEngine was provided. Creating a new FlutterEngine for this FlutterFragment.
+D/FlutterActivityAndFragmentDelegate(27168): Attaching FlutterEngine to the Activity that owns this Fragment.
+D/FlutterView(27168): Attaching to a FlutterEngine: io.flutter.embedding.engine.FlutterEngine@781dfe5
+D/FlutterActivityAndFragmentDelegate(27168): Executing Dart entrypoint: main, and sending initial route: /
+I/SurfaceView(27168): 77224070 surfaceChanged -- format=4 w=720 h=1424 visibleChanged:true -> SurfaceHolder.Callback.surfaceChanged
+I/Choreographer(27168): Skipped 26 frames!  The application may be doing too much work on its main thread.
+Debug service listening on ws://127.0.0.1:50807/6dMBs8ZOIGo=/ws
+Syncing files to device RMX1805...
+I/flutter (27168): ══╡ EXCEPTION CAUGHT BY IMAGE RESOURCE SERVICE ╞════════════════════════════════════════════════════
+I/flutter (27168): The following assertion was thrown resolving an image codec:
+I/flutter (27168): Unable to load asset: image/splashloading.gif
+I/flutter (27168): 
+I/flutter (27168): When the exception was thrown, this was the stack:
+I/flutter (27168): #0      PlatformAssetBundle.load (package:flutter/src/services/asset_bundle.dart:221:7)
+I/flutter (27168): <asynchronous suspension>
+I/flutter (27168): #1      AssetBundleImageProvider._loadAsync (package:flutter/src/painting/image_provider.dart:484:44)
+I/flutter (27168): #2      AssetBundleImageProvider.load (package:flutter/src/painting/image_provider.dart:469:14)
+I/flutter (27168): #3      ImageProvider.resolve.<anonymous closure>.<anonymous closure>.<anonymous closure> (package:flutter/src/painting/image_provider.dart:327:17)
+I/flutter (27168): #4      ImageCache.putIfAbsent (package:flutter/src/painting/image_cache.dart:160:22)
+I/flutter (27168): #5      ImageProvider.resolve.<anonymous closure>.<anonymous closure> (package:flutter/src/painting/image_provider.dart:325:84)
+I/flutter (27168): (elided 13 frames from package dart:async)
+I/flutter (27168): 
+I/flutter (27168): Image provider: AssetImage(bundle: null, name: "image/splashloading.gif")
+I/flutter (27168): Image key: AssetBundleImageKey(bundle: PlatformAssetBundle#24162(), name: "image/splashloading.gif",
+I/flutter (27168):   scale: 1.0)
+I/flutter (27168): ════════════════════════════════════════════════════════════════════════════════════════════════════
+I/flutter (27168): Another exception was thrown: Unable to load asset: image/shiva.jpg
+I/flutter (27168): Another exception was thrown: Unable to load asset: image/mahanandi.jpg
+I/flutter (27168): Another exception was thrown: Unable to load asset: image/navanandiroute.jpg
+E/flutter (27168): [ERROR:flutter/lib/ui/ui_dart_state.cc(157)] Unhandled Exception: NoSuchMethodError: Class 'String' has no instance getter 'sevaname'.
+E/flutter (27168): Receiver: "india"
+E/flutter (27168): Tried calling: sevaname
+E/flutter (27168): #0      Object.noSuchMethod (dart:core-patch/object_patch.dart:53:5)
+E/flutter (27168): #1      _SevaState.build.<anonymous closure>.<anonymous closure> (package:mahanandi/Seva.dart:64:38)
+E/flutter (27168): #2      State.setState (package:flutter/src/widgets/framework.dart:1148:30)
+E/flutter (27168): #3      _SevaState.build.<anonymous closure> (package:mahanandi/Seva.dart:63:15)
+E/flutter (27168): #4      _DropdownButtonState._handleTap.<anonymous closure> (package:flutter/src/material/dropdown.dart)
+E/flutter (27168): #5      _rootRunUnary (dart:async/zone.dart:1134:38)
+E/flutter (27168): #6      _CustomZone.runUnary (dart:async/zone.dart:1031:19)
+E/flutter (27168): #7      _FutureListener.handleValue (dart:async/future_impl.dart:139:18)
+E/flutter (27168): #8      Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:680:45)
+E/flutter (27168): #9      Future._propagateToListeners (dart:async/future_impl.dart:709:32)
+E/flutter (27168): #10     Future._completeWithValue (dart:async/future_impl.dart:524:5)
+E/flutter (27168): #11     Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:554:7)
+E/flutter (27168): #12     _rootRun (dart:async/zone.dart:1126:13)
+E/flutter (27168): #13     _CustomZone.run (dart:async/zone.dart:1023:19)
+E/flutter (27168): #14     _CustomZone.runGuarded (dart:async/zone.dart:925:7)
+E/flutter (27168): #15     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:965:23)
+E/flutter (27168): #16     _microtaskLoop (dart:async/schedule_microtask.dart:43:21)
+E/flutter (27168): #17     _startMicrotaskLoop (dart:async/schedule_microtask.dart:52:5)
+E/flutter (27168): 
+E/flutter (27168): [ERROR:flutter/lib/ui/ui_dart_state.cc(157)] Unhandled Exception: NoSuchMethodError: Class 'String' has no instance getter 'sevaname'.
+E/flutter (27168): Receiver: "usa"
+E/flutter (27168): Tried calling: sevaname
+E/flutter (27168): #0      Object.noSuchMethod (dart:core-patch/object_patch.dart:53:5)
+E/flutter (27168): #1      _SevaState.build.<anonymous closure>.<anonymous closure> (package:mahanandi/Seva.dart:64:38)
+E/flutter (27168): #2      State.setState (package:flutter/src/widgets/framework.dart:1148:30)
+E/flutter (27168): #3      _SevaState.build.<anonymous closure> (package:mahanandi/Seva.dart:63:15)
+E/flutter (27168): #4      _DropdownButtonState._handleTap.<anonymous closure> (package:flutter/src/material/dropdown.dart)
+E/flutter (27168): #5      _rootRunUnary (dart:async/zone.dart:1134:38)
+E/flutter (27168): #6      _CustomZone.runUnary (dart:async/zone.dart:1031:19)
+E/flutter (27168): #7      _FutureListener.handleValue (dart:async/future_impl.dart:139:18)
+E/flutter (27168): #8      Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:680:45)
+E/flutter (27168): #9      Future._propagateToListeners (dart:async/future_impl.dart:709:32)
+E/flutter (27168): #10     Future._completeWithValue (dart:async/future_impl.dart:524:5)
+E/flutter (27168): #11     Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:554:7)
+E/flutter (27168): #12     _rootRun (dart:async/zone.dart:1126:13)
+E/flutter (27168): #13     _CustomZone.run (dart:async/zone.dart:1023:19)
+E/flutter (27168): #14     _CustomZone.runGuarded (dart:async/zone.dart:925:7)
+E/flutter (27168): #15     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:965:23)
+E/flutter (27168): #16     _microtaskLoop (dart:async/schedule_microtask.dart:43:21)
+E/flutter (27168): #17     _startMicrotaskLoop (dart:async/schedule_microtask.dart:52:5)
+E/flutter (27168): 
+E/flutter (27168): [ERROR:flutter/lib/ui/ui_dart_state.cc(157)] Unhandled Exception: NoSuchMethodError: Class 'String' has no instance getter 'sevaname'.
+E/flutter (27168): Receiver: "france"
+E/flutter (27168): Tried calling: sevaname
+E/flutter (27168): #0      Object.noSuchMethod (dart:core-patch/object_patch.dart:53:5)
+E/flutter (27168): #1      _SevaState.build.<anonymous closure>.<anonymous closure> (package:mahanandi/Seva.dart:64:38)
+E/flutter (27168): #2      State.setState (package:flutter/src/widgets/framework.dart:1148:30)
+E/flutter (27168): #3      _SevaState.build.<anonymous closure> (package:mahanandi/Seva.dart:63:15)
+E/flutter (27168): #4      _DropdownButtonState._handleTap.<anonymous closure> (package:flutter/src/material/dropdown.dart)
+E/flutter (27168): #5      _rootRunUnary (dart:async/zone.dart:1134:38)
+E/flutter (27168): #6      _CustomZone.runUnary (dart:async/zone.dart:1031:19)
+E/flutter (27168): #7      _FutureListener.handleValue (dart:async/future_impl.dart:139:18)
+E/flutter (27168): #8      Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:680:45)
+E/flutter (27168): #9      Future._propagateToListeners (dart:async/future_impl.dart:709:32)
+E/flutter (27168): #10     Future._completeWithValue (dart:async/future_impl.dart:524:5)
+E/flutter (27168): #11     Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:554:7)
+E/flutter (27168): #12     _rootRun (dart:async/zone.dart:1126:13)
+E/flutter (27168): #13     _CustomZone.run (dart:async/zone.dart:1023:19)
+E/flutter (27168): #14     _CustomZone.runGuarded (dart:async/zone.dart:925:7)
+E/flutter (27168): #15     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:965:23)
+E/flutter (27168): #16     _microtaskLoop (dart:async/schedule_microtask.dart:43:21)
+E/flutter (27168): #17     _startMicrotaskLoop (dart:async/schedule_microtask.dart:52:5)
+E/flutter (27168): 
+I/SurfaceView(27168): 77224070 visibleChanged:true -> SurfaceHolder.Callback.surfaceDestroyed
+D/FlutterView(27168): Detaching from a FlutterEngine: io.flutter.embedding.engine.FlutterEngine@781dfe5
+V/ActivityThread(27168): handleTrimMemory:com.example.mahanandi
