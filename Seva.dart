@@ -61,12 +61,14 @@ class _SevaState extends State<Seva> {
             ),
             onChanged: (String data) {
               setState(() {
-                dropdownValue = data;
+                dropdownValue = data.sevaname;
+                sevadetailtext = data.sevadetail;
+                value = data.buttonvalue;
               });
             },
             items: sevanames.map<DropdownMenuItem<String>>((SevaName value) {
               return DropdownMenuItem<String>(
-                value: value.sevaname,
+                value: value,
                 child: Text(value.sevaname),
               );
             }).toList(),
